@@ -1,0 +1,114 @@
+{
+    "person-info":{
+        "image":"./img/Depositphotos.jpg",
+        "first-name": "Orçun",
+        "last-name": "Gokoluk",
+        "city": "İstanbul",
+        "country": "Turkey",
+        "email": "orcungokoluk@tempmail.com",
+        "phone": "1234567890",
+        "job":"Front-End Developer"
+    },
+
+
+    "skills": {
+        "corewebtec": ["Java", "JavaScript", "C#"],
+        "cssframeworks": ["Bootstrap","Talwind"],
+        "javascriptframeworks": ["React", "Angular"]
+    },
+
+
+    "languages": [
+        {
+            "name": "Turkish",
+            "level": "Native",
+            "percent": "100%"
+        },
+        {
+            "name": "English",
+            "level": "B1(Intermediate)",
+            "percent": "75%"
+        },     
+        {
+            "name": "German",
+            "level": "A1(Beginner)",
+            "percent": "35%"
+        }
+    ],
+
+
+    "experience": [
+        {
+        "company": "İstanbul Eğitim Akademi",
+        "position": "Fullstack Developer",
+        "startdate": {
+                "month": "April",
+                "year": "2024"
+                },
+        "enddate":{
+                "month": "January",
+                "year": "2025"
+                },
+        
+        "description":
+         "500 saatlik eğitimim boyunca çeşitli dersler aldım ve bu derslerle bağlantılı bireysel ve grup projelerinde yer aldım. Eğitim sürecimde Fullstack geliştirme konularına hakimiyet kazandım. Ancak, aldığım eğitim boyunca kendimi daha özgür hissettiğim Front-End alanına ağırlık vermeye karar verdim şu an bu yönde ilerlemekteyim."
+        },
+        {
+            "company": "İstanbul Eğitim Akademi",
+            "position": "Front-End Developer",
+            "startdate": {
+                    "month": "April",
+                    "year": "2024"
+                    },
+            "enddate":{
+                    "month": "January",
+                    "year": "2025"
+                    },
+            
+            "description":
+             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nisl ultricies tincidunt. Nullam nec purus nec nisl ultricies tincidunt. Nullam nec purus nec nisl lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nisl ultricies tincidunt. Nullam nec purus nec nisl ultricies tincidunt. Nullam nec purus nec nisl"
+            }
+            
+        
+    ],
+
+
+
+    "education": {
+        "schools": [
+
+           {
+            "name":"Beykent University",
+            "department":"Mechanical Engineering",
+            "startdate": {
+                "year": "2016"
+                },
+            "enddate":{
+                "year": "2020"
+                }
+            },
+            {
+            "name":"Istanbul Egitim Akademi - Fullstack Developer Bootcamp (6 Month)",
+            "department":"Mechanical Engineering",
+            "startdate": {
+                "year": "2024"
+                },
+            "enddate":{
+                "year": "2025"
+                }
+            }
+
+        ]
+                   
+    },
+    "socialmedia": [
+        {"facebook": "",
+        "instagram": "",
+        "linkedin": "",
+        "github": "",
+        "x":""}
+        ]   
+                   
+        
+        
+}

@@ -1,0 +1,252 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+.main
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:2rem 3rem;
+}
+.generals
+{
+    width: 33%;
+    min-width: 300px;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+header img{
+    width: 100%;
+}
+header{
+    position:relative;
+}
+header h1{
+    position: absolute;
+    display: block;
+    bottom:0;
+    background-color: rgba(187, 187, 187, 0.442);
+    width: 100%;
+    padding: 20px;
+}
+.personal-info ul{
+    list-style: none;
+}
+.education i, .experience i, .generals i
+{
+    color: rgb(0, 150, 136);
+}
+.general-info
+{
+    padding-left: 2.5%;
+    margin: 2.5%;
+    border-bottom: solid rgba(59, 50, 50, 0.492) 2px;
+}
+
+.general-info li{
+    color: rgb(117, 117, 117);
+}
+
+.general-info h3{
+    color: rgb(88, 88, 88);
+}
+.general-info:nth-child(4)
+{
+
+    border-bottom: 0;
+}
+
+.general-info li{
+    color: rgb(117, 117, 117);
+}
+
+.general-info ul li{
+    margin:1rem 0 1rem 0;
+}
+.skills
+{
+    padding-top: 1.5rem;
+}
+.Languages
+{
+    padding-top: 1.5rem;
+}
+
+.skills h3{
+    margin-top:2rem;
+    padding-left:1rem;
+}
+.skills ul
+{
+    padding-left:3rem
+}
+.skill-lists
+{
+    margin-bottom:2rem;
+    border-bottom: solid rgb(241, 241, 241) 2px;
+}
+.skill-lists:last-child {
+    border-bottom: none;
+}
+.language-turkish-text
+{
+    margin-top: 2rem;
+}
+.load-back-div
+{
+   /* background-color: rgb(0, 150, 136);*/
+   background-color: rgb(241, 241, 241);
+   border-radius: 2rem;
+    margin:1rem 0 2rem 0;
+    width: 100%;
+}
+.load-front-div
+{
+    border-radius: 2rem;
+    background-color:rgb(0, 150, 150);
+    padding:0.2rem;
+}
+
+.load-front-div p
+{
+    color: aliceblue;
+    padding-left: 1rem;
+}
+.experience
+{   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+}
+.border-div
+{
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 2rem;
+}
+.border-div:nth-last-child(1)
+{
+    border-bottom: none;
+}
+.head-p{
+    margin-top:3rem;
+}
+.experience h2{
+    margin-bottom: 2rem;
+}
+.experience p{
+    margin-bottom: 0.5rem;
+}
+.experience .grey
+{
+    color: rgb(117, 117, 117);
+}
+.experience .date{
+    margin-bottom: 3rem;
+}
+.date{
+ color: rgb(0, 150, 150);
+ padding-left: 1rem;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    font-size:1.5rem;
+}
+.content section p
+{
+    padding-left:3rem;
+}
+
+.content section
+{
+    margin-bottom: 2%;
+}
+.education
+{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+}
+.education h2{
+    margin-bottom: 4rem;
+}
+.education p{
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+.education article
+{
+    margin-bottom:3rem ;
+}
+.education a{
+    text-decoration: none;
+    color: rgba(117,117,117);
+}
+.education a:visited{
+    text-decoration: none;
+    color: rgba(117,117,117);
+}
+.education article
+{
+    border-bottom: 1px solid rgb(177, 177, 177);
+    padding-bottom: 4rem;
+}
+.education article:last-child
+{
+    border-bottom:none;
+    padding-bottom: 0;;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(0, 150, 150);
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+}
+footer ul
+{
+    display: flex;
+    list-style: none;
+}
+footer li{
+    margin-left: 0.5rem;
+}
+footer ul li a{
+    color: white;
+}
+footer ul li a:visited{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .generals
+    {
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .content
+    {
+        width: 100%;
+    }
+  }
